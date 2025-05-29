@@ -1,31 +1,36 @@
-# Supabase Keepalive Server
+# 🔄 Supabase Keepalive Server
 
-A simple Deno server that keeps your Supabase database alive by regularly pinging a table and responding with its current status.
+A lightweight Deno server designed to keep your Supabase database alive by periodically pinging a table and returning its status.
 
 ## 🚀 Features
-- Prevents Supabase from entering an idle state by sending periodic requests
+- Prevents Supabase from entering an idle state by sending scheduled requests
 - Uses Deno's built-in HTTP server module
-- Returns a status response confirming Supabase is active
-
-## 📦 Installation
-
-Ensure you have [Deno](https://deno.land/) installed before running this script.
+- Returns Supabase activity status in real-time
 
 ## 🛠️ Setup
 
-1. Replace `{{SUPABASE_URL}}` and `{{SUPABASE_KEY}}` in `SUPABASE_URL` and `SUPABASE_KEY` constants with your actual Supabase URL and API key.
-2. Save the file as `server.ts`.
+1. **Configure API Keys**  
+   Replace `{{SUPABASE_URL}}` and `{{SUPABASE_KEY}}` in the script with your actual Supabase credentials.
+
+2. **Create `server.ts`**  
+   Save the script as `server.ts`.
 
 ## 🌎 Deploying to Deno Deploy
 
-You can deploy this keepalive server to [Deno Deploy](https://deno.com/deploy).
+Deploy your keepalive server using [Deno Deploy](https://deno.com/deploy).
 
-### Steps:
-1. Sign in to [Deno Deploy](https://deno.com/deploy).
-2. Click **New Project** and select **Import from GitHub** (or manually upload your `server.ts`).
-3. Set the entry point to `server.ts`.
-4. Add environment variables for `SUPABASE_URL` and `SUPABASE_KEY` via **Project Settings**.
-5. Deploy your project and get the live URL.
+### ✨ Steps:
+1. **Create a GitHub Repository**  
+   - Go to [GitHub](https://github.com/).
+   - Click **New Repository** and name it `supabase-keepalive`.
+   - Clone it locally and upload your `server.ts` file.
+
+2. **Deploy to Deno Deploy**  
+   - Log into [Deno Deploy](https://deno.com/deploy).
+   - Click **New Project** and import from GitHub.
+   - Select `server.ts` as the entry point.
+   - Configure environment variables (`SUPABASE_URL`, `SUPABASE_KEY`).
+   - Click **Deploy** and retrieve your live URL.
 
 ## 🔍 Response Behavior
 
@@ -36,11 +41,19 @@ You can deploy this keepalive server to [Deno Deploy](https://deno.com/deploy).
 | 500    | Unexpected Response  |
 | 500    | Error Connecting to Supabase |
 
+## 📈 Monitoring with UptimeRobot
+
+For continuous monitoring:
+- Use [UptimeRobot](https://uptimerobot.com/) or similar services.
+- Create a new **HTTP monitor** pointing to your Deno Deploy URL.
+- Get notifications if downtime occurs.
 
 ## 🤝 Contributing
 
-Feel free to fork this repository, submit issues, or make pull requests for improvements.
+- Fork the repository  
+- Submit issues or feature requests  
+- Make pull requests for improvements  
 
 ---
 
-Keep Supabase alive and running! 🚀
+🚀 Keep Supabase running & responsive!
