@@ -1,9 +1,10 @@
 # 🔄 Supabase Keepalive Server
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/yourusername/supabase-keepalive?style=social)](https://github.com/yourusername/supabase-keepalive)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/supabase-keepalive?style=social)](https://github.com/yourusername/supabase-keepalive/fork)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/supabase-keepalive)](https://github.com/yourusername/supabase-keepalive/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/supabase-keepalive)](https://github.com/yourusername/supabase-keepalive/pulls)
+[![GitHub Repo stars](https://img.shields.io/github/stars/Hike-projects/keepalive-supabase?style=social)](https://github.com/Hike-projects/keepalive-supabase)
+[![GitHub forks](https://img.shields.io/github/forks/Hike-projects/keepalive-supabase?style=social)](https://github.com/Hike-projects/keepalive-supabase/fork)
+[![GitHub issues](https://img.shields.io/github/issues/Hike-projects/keepalive-supabase)](https://github.com/Hike-projects/keepalive-supabase/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/Hike-projects/keepalive-supabase)](https://github.com/Hike-projects/keepalive-supabase/pulls)
+[![GitHub license](https://img.shields.io/github/license/Hike-projects/keepalive-supabase)](https://github.com/Hike-projects/keepalive-supabase/blob/main/LICENSE)
 
 ---
 
