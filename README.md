@@ -1,4 +1,4 @@
-# deno-supabase-keepalive
+# Keepalive Supabase
 
 A simple Deno server that keeps your Supabase database alive by regularly pinging a table and responding with its current status.
 
