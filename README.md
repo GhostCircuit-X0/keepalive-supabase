@@ -1,5 +1,12 @@
 # 🔄 Supabase Keepalive Server
 
+[![GitHub Repo stars](https://img.shields.io/github/stars/yourusername/supabase-keepalive?style=social)](https://github.com/yourusername/supabase-keepalive)
+[![GitHub forks](https://img.shields.io/github/forks/yourusername/supabase-keepalive?style=social)](https://github.com/yourusername/supabase-keepalive/fork)
+[![GitHub issues](https://img.shields.io/github/issues/yourusername/supabase-keepalive)](https://github.com/yourusername/supabase-keepalive/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/supabase-keepalive)](https://github.com/yourusername/supabase-keepalive/pulls)
+
+---
+
 A lightweight Deno server designed to keep your Supabase database alive by periodically pinging a table and returning its status.
 
 ## 🚀 Features
