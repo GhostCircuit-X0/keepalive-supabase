@@ -1,4 +1,4 @@
-import { serve } from "https://deno.land/std@0.155.0/http/server.ts";
+import { serve } from "https://deno.land/std@0.214.0/http/server.ts";
 
 const SUPABASE_URL = "{{SUPABASE_URL}}";  // Replace with your Supabase URL
 const SUPABASE_KEY = "{{SUPABASE_KEY}}";  // Replace with your Supabase Key
